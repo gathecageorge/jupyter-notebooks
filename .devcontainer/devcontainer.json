@@ -36,7 +36,7 @@
 
 	// Mount ssh keys
 	"mounts": [
-		"type=bind,source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,consistency=cached"
+		"type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,consistency=cached"
 	]
 	
 	// Use 'postCreateCommand' to run commands after the container is created.
